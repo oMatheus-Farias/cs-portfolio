@@ -431,6 +431,16 @@ html body {
   min-width: 245px;
   max-width: 245px;
   width: 100%;
+  transition: scale 0.2s linear;
+}
+
+.contacts-list-item:hover {
+  scale: 1.04;
+  box-shadow: 0 0 20px rgb(255, 255, 0);
+}
+
+.contacts-list a {
+  text-decoration: none;
 }
 
 .contacts-list-item-icon-container {
@@ -454,4 +464,54 @@ html body {
   font-size: 16px;
   font-weight: 300;
   color: #9e9e9e;
+}
+
+.footer {
+  width: 100%;
+  height: 316px;
+  background-image: url("../assets/images/footer-background.png");
+  margin-top: 300px;
+}
+
+.footer-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 0 80px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.navigate-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.networks-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.networks-content span {
+  font-size: 16px;
+  font-weight: 300;
+  color: #b6b6b6;
+}
+
+.networks-list {
+  display: flex;
+  gap: 4px;
+  list-style: none;
+}
+
+.networks-list-item a {
+  padding: 12px;
 }
