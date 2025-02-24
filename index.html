@@ -18,7 +18,7 @@
 
     <title>CodeStack | Portfolio</title>
   </head>
-  <body>
+  <body style="padding-bottom: 40px">
     <header class="header">
       <div class="header-nav-container">
         <img
@@ -48,36 +48,107 @@
     </header>
     <main>
       <section class="main-background-container">
-        <div class="about-container">
-          <div class="welcome-container">
-            <p class="welcome-text">Bem-vindo(a) ao meu portfólio</p>
+        <div class="main-background-content">
+          <div class="about-container">
+            <div class="welcome-container">
+              <p class="welcome-text">Bem-vindo(a) ao meu portfólio</p>
+            </div>
+
+            <div class="about-text-content">
+              <h1>Quem sou eu?</h1>
+              <p>
+                Olá, meu nome é Matheus Farias, sou desenvolvedor full stack,
+                totalmente apaixonado por programação e tecnologia. Tenho
+                experiência significativa no desenvolvimento full stack,
+                utilizando ferramentas como TypeScript, React.js, Next.js,
+                Node.js, CSS, Tailwind CSS, Prisma e no mobile React native.
+                Além disso, trago conhecimentos sólidos em HTML, Git, GitHub,
+                Jest, Firebase, PostgreSQL e Docker, aplicando essas tecnologias
+                para criar aplicações de alto nível e valor.
+              </p>
+            </div>
+
+            <button class="download-cv-button">
+              <a href="#">
+                <img
+                  src="./src/assets/icons/file-icon.svg"
+                  alt="Baixar currículo"
+                />
+                <span>Baixar currículo</span>
+              </a>
+            </button>
           </div>
 
-          <div class="about-text-content">
-            <h1>Quem sou eu?</h1>
-            <p>
-              Olá, meu nome é Matheus Farias, sou desenvolvedor full stack,
-              totalmente apaixonado por programação e tecnologia. Tenho
-              experiência significativa no desenvolvimento full stack,
-              utilizando ferramentas como TypeScript, React.js, Next.js,
-              Node.js, CSS, Tailwind CSS, Prisma e no mobile React native. Além
-              disso, trago conhecimentos sólidos em HTML, Git, GitHub, Jest,
-              Firebase, PostgreSQL e Docker, aplicando essas tecnologias para
-              criar aplicações de alto nível e valor.
-            </p>
+          <div class="developer-image-container">
+            <img
+              src="src/assets/images/developer.jpg"
+              alt="Desenvolvedor"
+              class="developer-image"
+            />
           </div>
-        </div>
-
-        <div class="developer-image-container">
-          <img
-            src="src/assets/images/developer.jpg"
-            alt="Desenvolvedor"
-            class="developer-image"
-          />
         </div>
       </section>
 
-      <section class="main-container"></section>
+      <section class="main-container">
+        <div class="technologies-container">
+          <h2>Tecnologias que utilizo</h2>
+
+          <ul class="technologies-list">
+            <li>
+              <div class="technologies-list-icon-container">
+                <img
+                  src="src/assets/icons/html-icon.svg"
+                  alt="HTML"
+                  class="technologies-list-icon"
+                />
+              </div>
+              <span>HTML</span>
+            </li>
+            <li>
+              <div class="technologies-list-icon-container">
+                <img
+                  src="src/assets/icons/css-icon.svg"
+                  alt="CSS"
+                  class="technologies-list-icon"
+                />
+              </div>
+              <span>CSS</span>
+            </li>
+            <li>
+              <div class="technologies-list-icon-container">
+                <img
+                  src="src/assets/icons/javascript-icon.svg"
+                  alt="JavaScript"
+                  class="technologies-list-icon"
+                />
+              </div>
+              <span>JavaScript</span>
+            </li>
+            <li>
+              <div class="technologies-list-icon-container">
+                <img
+                  src="src/assets/icons/typescript-icon.svg"
+                  alt="TypeScript"
+                  class="technologies-list-icon"
+                />
+              </div>
+              <span>TypeScript</span>
+            </li>
+            <li>
+              <div class="technologies-list-icon-container">
+                <img
+                  src="src/assets/icons/react-icon.svg"
+                  alt="React.js"
+                  class="technologies-list-icon"
+                />
+              </div>
+              <span>React</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="separator"></div>
+      </section>
     </main>
   </body>
 </html>

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  color: #ffff;
 }
 
 html body {
@@ -18,6 +19,8 @@ html body {
   justify-content: space-between;
   align-items: center;
   padding: 0 80px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .header-logo {
@@ -88,11 +91,20 @@ html body {
   width: 100%;
   height: 583px;
   background-image: url("../assets/images/main-background.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.main-background-content {
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 80px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .about-container {
@@ -132,12 +144,6 @@ html body {
   color: #b9b9b9;
 }
 
-.main-container {
-  width: 100%;
-  height: 100%;
-  padding: 0 80px;
-}
-
 .developer-image-container {
   width: 100%;
   height: 100%;
@@ -149,4 +155,100 @@ html body {
   width: 100%;
   height: 100%;
   border-radius: 999px 0 999px 999px;
+}
+
+.download-cv-button {
+  margin-top: 18px;
+  background-color: transparent;
+  border: none;
+}
+
+.download-cv-button a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffff;
+  text-transform: uppercase;
+  text-underline-offset: 4px;
+  padding: 20px 12px 20px 0px;
+}
+
+.download-cv-button:hover a {
+  color: rgb(204, 204, 204);
+  transition: 0.2s;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  padding: 0 80px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.technologies-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 120px;
+  margin-top: 220px;
+}
+
+.technologies-container h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #afafaf;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border: 1px solid #ffff00;
+  border-radius: 999px;
+  width: fit-content;
+}
+
+.technologies-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 100px;
+  list-style: none;
+}
+
+.technologies-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.technologies-list span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+.technologies-list-icon-container {
+  background-color: #262626;
+  width: 86px;
+  height: 86px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #383838;
+}
+
+.technologies-list-icon-container:hover {
+  scale: 1.08;
+  transition: 0.2s;
+}
+
+.separator {
+  min-width: 100%;
+  min-height: 1px;
+  background-color: #1b1b1b;
+  margin-top: 140px;
 }
