@@ -239,11 +239,11 @@ html body {
   justify-content: center;
   align-items: center;
   border: 1px solid #383838;
+  transition: scale 0.2s linear;
 }
 
 .technologies-list-icon-container:hover {
   scale: 1.08;
-  transition: 0.2s;
 }
 
 .separator {
@@ -251,4 +251,138 @@ html body {
   min-height: 1px;
   background-color: #1b1b1b;
   margin-top: 140px;
+}
+
+.projects-container {
+  margin-top: 180px;
+}
+
+.projects-container h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #afafaf;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border: 1px solid #ffff00;
+  border-radius: 999px;
+  width: fit-content;
+}
+
+.projects-container-title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffff;
+  margin-top: 4px;
+}
+
+.projects-container-description {
+  font-size: 16px;
+  font-weight: 300;
+  color: #b9b9b9;
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+
+.projects-container span {
+  font-size: 16px;
+  font-weight: 300;
+  color: #b9b9b9;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 50px;
+  list-style: none;
+}
+
+.projects-list-item {
+  padding: 30px;
+  width: 100%;
+  border: 1px solid #343434;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects-list-item-description-content {
+  width: 100%;
+  max-width: 440px;
+}
+
+.projects-list-item-description-content h4 {
+  font-size: 34px;
+  font-weight: 400;
+  color: #ffff;
+  margin-bottom: 12px;
+}
+
+.projects-list-item-description-content p {
+  font-size: 16px;
+  color: #a4a4a4;
+}
+
+.projects-list-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  margin-top: 26px;
+}
+
+.projects-list-technologies li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.projects-list-technologies-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.projects-list-technologies-icon-container {
+  background-color: #262626;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #383838;
+}
+
+.projects-list-technologies span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.separator-projects-list {
+  min-height: 320px;
+  min-width: 1px;
+  background-color: #ffff00;
+}
+
+.projects-list-item-image-container {
+  width: 450px;
+  height: 328px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid #343434;
+  transition: scale 0.2s linear;
+}
+
+.projects-list-item-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects-list-item-image-container:hover {
+  scale: 0.96;
 }
