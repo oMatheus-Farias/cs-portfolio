@@ -8,7 +8,7 @@
 
 html body {
   width: 100%;
-  height: "100vh";
+  height: 100vh;
   background-color: #0f0f0f;
 }
 
@@ -37,7 +37,7 @@ html body {
 .header-nav-list {
   list-style: none;
   display: flex;
-  items-align: center;
+  align-items: center;
   gap: 20px;
 }
 
