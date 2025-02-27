@@ -25,7 +25,7 @@
     <title>CodeStack | Portfolio</title>
   </head>
   <body>
-    <header class="header">
+    <header id="about" class="header">
       <div class="header-nav-container">
         <img
           src="src/assets/images/logo.svg"
@@ -35,10 +35,16 @@
 
         <nav>
           <ul class="header-nav-list">
-            <li class="header-nav-list-item"><a href="#">Sobre</a></li>
-            <li class="header-nav-list-item"><a href="#">Tecnologias</a></li>
-            <li class="header-nav-list-item"><a href="#">Projetos</a></li>
-            <li class="header-nav-list-item"><a href="#">Contatos</a></li>
+            <li class="header-nav-list-item"><a href="#about">Sobre</a></li>
+            <li class="header-nav-list-item">
+              <a href="#technologies">Tecnologias</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a href="#projects">Projetos</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a href="#contacts">Contatos</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -95,7 +101,7 @@
         </div>
       </section>
 
-      <section class="main-container">
+      <section id="technologies" class="main-container">
         <div class="technologies-container">
           <h2>Tecnologias que utilizo</h2>
 
@@ -155,7 +161,7 @@
 
         <div class="separator"></div>
 
-        <div class="projects-container">
+        <div id="projects" class="projects-container">
           <h3>Projetos</h3>
 
           <h2 class="projects-container-title">
@@ -313,7 +319,7 @@
           </ul>
         </div>
 
-        <div class="contacts-container">
+        <div id="contacts" class="contacts-container">
           <div class="contacts-text-content">
             <h3>Contatos</h3>
 
@@ -386,10 +392,16 @@
 
           <nav>
             <ul class="header-nav-list">
-              <li class="header-nav-list-item"><a href="#">Sobre</a></li>
-              <li class="header-nav-list-item"><a href="#">Tecnologias</a></li>
-              <li class="header-nav-list-item"><a href="#">Projetos</a></li>
-              <li class="header-nav-list-item"><a href="#">Contatos</a></li>
+              <li class="header-nav-list-item"><a href="#about">Sobre</a></li>
+              <li class="header-nav-list-item">
+                <a href="#technologies">Tecnologias</a>
+              </li>
+              <li class="header-nav-list-item">
+                <a href="#projects">Projetos</a>
+              </li>
+              <li class="header-nav-list-item">
+                <a href="#contacts">Contatos</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -425,5 +437,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="src/js/script.js"></script>
   </body>
 </html>
