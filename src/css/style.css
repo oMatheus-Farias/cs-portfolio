@@ -19,8 +19,11 @@ html body {
   justify-content: space-between;
   align-items: center;
   padding: 0 80px;
-  max-width: 1500px;
-  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(15, 15, 15, 0.1);
+  backdrop-filter: blur(10px);
 }
 
 .header-logo {
@@ -32,6 +35,7 @@ html body {
   display: flex;
   align-items: center;
   gap: 70px;
+  max-width: 1500px;
 }
 
 .header-nav-list {
